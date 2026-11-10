@@ -1,0 +1,5 @@
+# Réécriture d'URL : toutes les requêtes vers un fichier ou dossier inexistant passent par index.php
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
