@@ -1,0 +1,16 @@
+# Configuration locale (identifiants de la base) : ne jamais commiter
+config/config.php
+
+# Images envoyées par les utilisateurs / l'admin
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Fichiers d'éditeur et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Dépendances éventuelles
+vendor/
+node_modules/
