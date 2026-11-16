@@ -1,0 +1,4 @@
+# Dossier des images envoyées par l'administrateur : aucun script ne doit s'y exécuter
+<FilesMatch "\.(php|phtml|phar)$">
+    Require all denied
+</FilesMatch>

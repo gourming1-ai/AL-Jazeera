@@ -1,0 +1,5 @@
+# Le site est servi depuis public/ : si le dossier du projet est ouvert directement
+# (ex. http://localhost/AL-Jazeera/), les requêtes sont renvoyées vers public/.
+RewriteEngine On
+RewriteRule ^$ public/ [L]
+RewriteRule ^(.*)$ public/$1 [L]

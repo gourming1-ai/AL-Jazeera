@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 640" role="img" aria-label="Alien – Mugler">
+<defs>
+<linearGradient id="fond" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f2e3d2"/><stop offset="1" stop-color="#e6d0b9"/></linearGradient>
+<linearGradient id="arche" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fbf3ea"/><stop offset="1" stop-color="#ecdcc9"/></linearGradient>
+<linearGradient id="verre" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7a5490"/><stop offset="1" stop-color="#3c2350"/></linearGradient>
+<linearGradient id="cap" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#b8913f"/><stop offset=".3" stop-color="#f0dba0"/><stop offset=".65" stop-color="#b8913f"/><stop offset="1" stop-color="#86601f"/></linearGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#b8913f"/><stop offset=".35" stop-color="#f4e2ae"/><stop offset=".7" stop-color="#c39a49"/><stop offset="1" stop-color="#86601f"/></linearGradient>
+<linearGradient id="marbre" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fdf9f3"/><stop offset="1" stop-color="#e9dccb"/></linearGradient>
+<filter id="flou" x="-30%" y="-80%" width="160%" height="260%"><feGaussianBlur stdDeviation="9"/></filter>
+</defs>
+<rect width="600" height="640" fill="url(#fond)"/>
+<path d="M118,640 V250 a182,182 0 0 1 364,0 V640 Z" fill="url(#arche)"/>
+<path d="M118,640 V250 a182,182 0 0 1 364,0 V640" fill="none" stroke="#c9a55c" stroke-width="1.5" opacity=".55"/>
+<path d="M30,582 L570,582 L600,640 L0,640 Z" fill="#e3d3bf"/>
+<rect x="30" y="540" width="540" height="46" fill="url(#marbre)"/>
+<path d="M30,540 H570" stroke="#fff" stroke-width="2"/>
+<path d="M70,548 q60,14 120,6 t110,10 M330,552 q70,-8 120,10 t90,4 M150,574 q40,-8 90,2 M400,570 q50,10 110,-2" fill="none" stroke="#c9b08b" stroke-width="1.2" opacity=".55"/>
+<ellipse cx="300" cy="552" rx="113.0" ry="11" fill="#6b4d2c" opacity=".28" filter="url(#flou)"/>
+<g transform="translate(300 548) scale(1.3) translate(-300 -548)" font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif">
+<rect x="276" y="280" width="48" height="20" fill="url(#metal)"/><rect x="271" y="291" width="58" height="9" rx="2" fill="url(#metal)"/><ellipse cx="300" cy="250.0" rx="27.0" ry="30.0" fill="url(#cap)"/><ellipse cx="289.2" cy="240.0" rx="6.0" ry="10.0" fill="rgba(255,255,255,.45)"/><path d="M274,298 C260,358 199.0,408 205.0,470 C205.0,526 248,548 300,548 C352,548 395.0,526 395.0,470 C401.0,408 340,358 326,298 Z" fill="url(#verre)" stroke="rgba(255,255,255,.75)" stroke-width="3"/><rect x="248" y="426" width="8" height="54" rx="4" fill="rgba(255,255,255,0.22)"/><text x="300" y="400.0" text-anchor="middle" font-size="12.5" letter-spacing="2.2" fill="#e9cf8f" opacity=".9">MUGLER</text><line x1="282" y1="410.0" x2="318" y2="410.0" stroke="#e9cf8f" stroke-width="1" opacity=".6"/><text x="300" y="436.0" text-anchor="middle" font-size="27.0" letter-spacing="1" fill="#e9cf8f">ALIEN</text><text x="300" y="462.0" text-anchor="middle" font-size="9.5" letter-spacing="2" fill="#e9cf8f" opacity=".8">EAU DE PARFUM</text>
+</g>
+</svg>
